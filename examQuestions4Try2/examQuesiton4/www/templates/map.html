@@ -1,0 +1,25 @@
+<ion-view title="iMap">
+  <ion-content>
+
+    <div>
+      <div id="map" lat="55.763516" lng="12.49494290000007" zoom="10" map>
+      <!--<div id="map" zoom="10" map>-->
+
+      </div>
+
+      <div width="80%" class="list list-inset" style="margin-left:10%;margin-right:10%;">
+        <label class="item item-input">
+          <input type="text" ng-model="user.desc" placeholder="Description">
+        </label>
+
+        <button class="button button-full button-positive" ng-click="saveDetails()">
+          Save
+        </button>
+        <buttom class="button button-full button-positive" ng-click="track()">
+          Start tracking yourself!
+        </buttom>
+      </div>
+    </div>
+
+  </ion-content>
+</ion-view>
